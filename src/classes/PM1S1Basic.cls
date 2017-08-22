@@ -8,7 +8,7 @@ public with sharing class PM1S1Basic {
     
     public void arrayOfSize(Integer i){
     	String [] stringArray = new String[i];
-    	System.debug(stringArray);
+    	System.debug(stringArray.size());
     }
     
     public void integerArrayOperations(Integer[] integerArray){
